@@ -3,7 +3,7 @@
 import * as mongoose from "mongoose";
 export const ProductsSchema = new mongoose.Schema({
     name: String,
-    price: mongoose.Schema.Types.Decimal128,
+    price: String,
     stock: Number,
     
 }, { collection: 'products' })

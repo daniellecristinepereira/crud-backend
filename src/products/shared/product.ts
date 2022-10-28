@@ -9,9 +9,9 @@ export class Products{
     @IsNotEmpty()
     name: string
 
-    @IsNumber()
+    @IsString()
     @IsNotEmpty()
-    price: number
+    price: string
     
     @IsNumber()
     @IsNotEmpty()
